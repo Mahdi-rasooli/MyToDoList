@@ -1,0 +1,147 @@
+* , *::after , *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#1A1A1A ;
+    font-family: Arial, sans-serif;
+}
+
+
+.todolist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+
+.todo-title{
+    margin-top: 90px;
+    font-size: 39px;
+    color: #ffff;
+}
+
+
+.todo-input{
+    display: flex;
+    margin-top: 20px;
+}
+
+.todo-input input{
+    width: 100%;
+    height: 10vh;
+    padding: 10px 35px;
+    border: 1px solid (90.21deg, #AA367C -5.91%, #4A2FBD 111.58%) ;
+    margin-right: 5px;
+    color: #242424;
+    font-size: 21px;
+    background: #ffff;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.todo-input button{
+    height: 10vh;
+    padding: 18px 35px;
+    border: none;
+    font-size: 19px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+}
+
+
+.todo-input button:hover{
+    background: linear-gradient(90.21deg, #AA367C -15.91%, #48359a 81.58%);
+}
+
+
+.todo-item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.todo-item ol{
+    padding: 0;
+}
+
+
+.todo-item li{
+    width: 40vw;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    background-color: #48359a;
+    font-size: 20px;
+    padding: 20px 41px;
+    margin-bottom: 15px;
+    align-items: start;
+    border-radius: 8px;
+}
+
+.edit-todo{
+    display: flex;
+}
+
+
+.edit-todo input{
+    background-color: #48359a;
+    color: #ffff;
+    font-size: 19px;
+    border: 1px solid white ;
+    border-radius: 8px;
+    font-weight: 700;
+    padding: 10px 35px;
+    width: 100%;
+    height: 10vh;
+    margin-right: 8px;
+}
+
+
+.edit-todo button{
+    width: 10vw;
+    padding: 10px 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+}
+
+.todo-list-item{
+    display: flex;
+    font-size: 2.1rem;
+    align-items: start;
+    justify-content: space-between;
+}
+
+
+.todo-list-item span{
+    align-items: start;
+    margin-top: 10px;
+}
+
+
+.editicon , .trashicon , .upicon {
+    margin: 4px;
+    font-size: 25px;
+    background-color: (90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    color: #8e4571 ;
+}
+
+
+
+
